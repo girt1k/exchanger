@@ -1,0 +1,77 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Climate Crisis', cursive;
+}
+
+body {
+    background: linear-gradient(340deg, #3d6ff5, #e32222);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+.container .box {
+    widows: 100%;
+    display: flex;
+}
+
+.box div {
+    width: 100%;
+}
+
+
+select {
+    width: 95%;
+    height: 40px;
+    font-size: 1.1em;с
+    cursor: pointer;
+    background: #dbdbdb;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: #cccccc;
+    outline: none;
+    color: black;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    padding: 0 1em;
+}
+
+.btn{
+    width: 98%;
+    height: 40px;
+    background: #364547;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+    border-radius: 10px;
+}
